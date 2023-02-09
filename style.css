@@ -1,0 +1,127 @@
+:root {
+    --wh-gr: rgb(241, 241, 241);
+    --gr: dimgray;
+    --green: rgba(62, 173, 122, 0.7);
+}
+
+.forPaint {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-ff {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    background-color: var(--wh-gr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.paint {
+    background-image: url(images/menu-burger-svgrepo-com.svg);
+    width: 50px;
+    height: 50px;
+}
+.logo {
+    font-family: 'Caveat', cursive;
+    font-family: 'Kelly Slab', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--gr);
+/* font-family: 'Ruslan Display', cursive; */
+}
+/* // */
+.forest {
+    height: 600px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=9eca6203cd3802478af8a0a7d939ca8cc373f6bd-6430644-images-thumbs&n=13);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.round {
+    width: 200px;
+    height: 200px;
+    background-color: var(--green);
+    border-radius: 50%;
+}
+
+.forest-text {
+    color: var(--wh-gr);
+    letter-spacing: 10px;
+}
+.forest-text1 {
+    font-size: 50px;
+}
+.forest-text2 {
+    font-size: 100px;
+}
+/* // */
+.block3 {
+    height: 400px;
+    background-color: var(--wh-gr);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.text1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.text2 {
+    font-size: large;
+    color: var(--gr);
+}
+.text2 p {
+    text-align: justify;
+}
+.btn {
+    background-color: var(--green);
+    border-radius: 20px;
+    width: 250px;
+    border: 0;
+}
+.btn p {
+    letter-spacing: 5px;
+    font-size: large;
+    color: var(--wh-gr);
+}
+/* // */
+.block4 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+.fr1 {
+    height: 100px;
+}
+.img {
+    height: 200px;
+    background-color: violet;
+}
+.fr3 {
+    background-color: var(--gr);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
